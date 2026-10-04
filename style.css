@@ -359,7 +359,7 @@ body {
     color: #777;
     gap: 20px;
 }
-
+/* 
 @media (max-width: 900px) {
 
     .header {
@@ -412,7 +412,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
-}
+} */
 
 
 
@@ -546,7 +546,7 @@ body {
     background: #444;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
 
     .work-section {
         padding: 90px 7%;
@@ -626,4 +626,4 @@ body {
     .conclusion h2 {
         font-size: 32px;
     }
-}
+} */
