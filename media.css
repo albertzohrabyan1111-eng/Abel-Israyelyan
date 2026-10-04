@@ -1,14 +1,7 @@
-/* ============================================
-   media.css — adaptiv (responsive) kanonner
-   Kapel style.css-ic heto, animation.css-ic heto
-   ============================================ */
-
-/* Header-i tak hascen anchor-neri hamar */
 section[id] {
     scroll-margin-top: 80px;
 }
 
-/* ---------- Laptop / poqr ekran (<= 1200px) ---------- */
 @media (max-width: 1200px) {
 
     .content,
@@ -33,7 +26,7 @@ section[id] {
 }
 
 
-/* ---------- Tablet (<= 900px) ---------- */
+
 @media (max-width: 900px) {
 
     .header {
@@ -117,7 +110,6 @@ section[id] {
 }
 
 
-/* ---------- Telefon (<= 600px) ---------- */
 @media (max-width: 600px) {
 
     section[id] {
@@ -267,7 +259,6 @@ section[id] {
 }
 
 
-/* ---------- Shat poqr telefon (<= 380px) ---------- */
 @media (max-width: 380px) {
 
     .hero h1 {
