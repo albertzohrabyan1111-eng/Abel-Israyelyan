@@ -1,0 +1,136 @@
+
+
+.hero-text {
+    animation: textShow 1s ease;
+}
+
+@keyframes textShow {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Code box-ը գալիս է աջից */
+
+.hero-code {
+    animation: codeShow 1s ease;
+}
+
+@keyframes codeShow {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Կոճակի hover */
+
+.button {
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-4px);
+}
+
+
+/* Menu-ի hover */
+
+.menu a {
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    transform: translateY(-2px);
+}
+
+
+/* Symbol-ների hover */
+
+.symbol {
+    transition: 0.3s;
+}
+
+.symbol:hover {
+    transform: translateY(-8px);
+}
+
+
+/* Memory card-ների hover */
+
+.memory-card {
+    transition: 0.3s;
+}
+
+.memory-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* Փորձիր բաժնի քարտերը */
+
+.work-input,
+.work-result {
+    transition: 0.3s;
+}
+
+.work-input:hover,
+.work-result:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Վերլուծել կոճակ */
+
+.analyze-button {
+    transition: 0.3s;
+}
+
+.analyze-button:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Մաքրել կոճակ */
+
+.reset-button {
+    transition: 0.3s;
+}
+
+.reset-button:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Արդյունքների թվերը */
+
+.result-item strong {
+    transition: 0.3s;
+}
+
+.result-item:hover strong {
+    transform: scale(1.1);
+    display: inline-block;
+}
+
+
+/* Button-ի սեղմելու փոքր animation */
+
+.analyze-button:active,
+.reset-button:active,
+.button:active {
+    transform: scale(0.95);
+}
