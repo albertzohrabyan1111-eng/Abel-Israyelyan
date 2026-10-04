@@ -1,0 +1,285 @@
+/* ============================================
+   media.css — adaptiv (responsive) kanonner
+   Kapel style.css-ic heto, animation.css-ic heto
+   ============================================ */
+
+/* Header-i tak hascen anchor-neri hamar */
+section[id] {
+    scroll-margin-top: 80px;
+}
+
+/* ---------- Laptop / poqr ekran (<= 1200px) ---------- */
+@media (max-width: 1200px) {
+
+    .content,
+    .work-section,
+    .conclusion {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .hero {
+        gap: 40px;
+    }
+
+    .hero h1 {
+        font-size: 58px;
+    }
+
+    .hero-code {
+        width: 380px;
+        flex-shrink: 0;
+    }
+}
+
+
+/* ---------- Tablet (<= 900px) ---------- */
+@media (max-width: 900px) {
+
+    .header {
+        padding: 0 5%;
+    }
+
+    .menu {
+        gap: 18px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 130px 7% 70px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+    }
+
+    .hero-description {
+        max-width: 100%;
+    }
+
+    .hero-code {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .content {
+        padding: 90px 7%;
+    }
+
+    .section-title h2 {
+        font-size: 36px;
+    }
+
+    .article {
+        max-width: 100%;
+    }
+
+    .memory-card {
+        width: calc(50% - 10px);
+    }
+
+    .work-section {
+        padding: 90px 7%;
+    }
+
+    .work-box {
+        flex-direction: column;
+    }
+
+    .work-input,
+    .work-result {
+        width: 100%;
+    }
+
+    .conclusion {
+        padding: 100px 7%;
+    }
+
+    .conclusion h2 {
+        font-size: 38px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+/* ---------- Telefon (<= 600px) ---------- */
+@media (max-width: 600px) {
+
+    section[id] {
+        scroll-margin-top: 110px;
+    }
+
+    .header {
+        height: auto;
+        min-height: 70px;
+        padding: 12px 5%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .menu {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 16px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .hero {
+        padding: 160px 6% 60px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        word-break: break-word;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .button {
+        display: block;
+        text-align: center;
+    }
+
+    .code-body {
+        padding: 20px;
+        font-size: 14px;
+        overflow-x: auto;
+    }
+
+    .content {
+        padding: 70px 6%;
+    }
+
+    .section-title {
+        margin-bottom: 35px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .article p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .info-box {
+        flex-direction: column;
+        gap: 12px;
+        padding: 22px;
+    }
+
+    .symbols {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .symbol {
+        width: calc(33.33% - 7px);
+        min-width: 90px;
+        height: 100px;
+    }
+
+    .example {
+        padding: 20px;
+    }
+
+    .example-text {
+        font-size: 22px;
+    }
+
+    .example-code {
+        font-size: 16px;
+        word-break: break-word;
+    }
+
+    .memory-card {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .work-section {
+        padding: 70px 5%;
+    }
+
+    .work-input,
+    .work-result {
+        padding: 20px;
+    }
+
+    .work-input textarea {
+        height: 150px;
+        font-size: 16px;
+    }
+
+    .analyze-button,
+    .reset-button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reset-button {
+        margin-top: 10px;
+    }
+
+    .conclusion {
+        padding: 80px 6%;
+    }
+
+    .conclusion h2 {
+        font-size: 28px;
+    }
+
+    .conclusion-text {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 25px 6%;
+        text-align: left;
+    }
+}
+
+
+/* ---------- Shat poqr telefon (<= 380px) ---------- */
+@media (max-width: 380px) {
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .section-title h2,
+    .conclusion h2 {
+        font-size: 24px;
+    }
+
+    .symbol {
+        width: calc(50% - 5px);
+    }
+}
